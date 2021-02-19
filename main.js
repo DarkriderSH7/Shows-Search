@@ -1,4 +1,4 @@
-var url="http://api.tvmaze.com/search/shows?q=";
+var url="https://api.tvmaze.com/search/shows?q=";
 
 async function search(result){
     let res=await fetch(url+result);
